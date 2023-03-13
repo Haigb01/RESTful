@@ -7,7 +7,10 @@ public class Demo {
 		System.out.println("Hello 2 nha");
 		int a = 10;
 		int b = 11;
-		System.out.println(a+b);
+		if(b>10) {
+			System.out.println(a+b);
+		}
+		
 		System.out.println(a*b);
 	}
 
